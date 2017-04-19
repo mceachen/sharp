@@ -147,7 +147,7 @@
               'download_vips': '<!(LDD_VERSION="<!(ldd --version 2>&1 || true)" node -e "require(\'./binding\').download_vips()")'
             },
             'defines': [
-              '_GLIBCXX_USE_CXX11_ABI=0'
+              '_GLIBCXX_USE_CXX11_ABI=1'
             ],
             'libraries': [
               '../vendor/lib/libvips-cpp.so',
